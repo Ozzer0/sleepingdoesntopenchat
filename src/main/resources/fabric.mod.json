@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "sleeping-doesnt-open-chat",
+	"version": "${version}",
+	"name": "Sleeping doesn't open chat",
+	"description": "Sleeping doesn't open chat, at request of r/MrHarryHD",
+	"authors": [
+		"Ozzer"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/sleeping-doesnt-open-chat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nosleepchat.SleepingDoesntOpenChat"
+		]
+	},
+	"mixins": [
+		"sleeping-doesnt-open-chat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
